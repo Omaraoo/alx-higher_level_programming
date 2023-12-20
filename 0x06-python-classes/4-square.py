@@ -13,7 +13,7 @@ class Square:
         self.__size = size
 
     @property
-    def size(size):
+    def size(self):
         return self.__size
 
     @size.setter
